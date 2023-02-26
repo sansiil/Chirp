@@ -4,3 +4,45 @@
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
 }
+.df{
+    display: flex;
+}
+.sb{
+  justify-content: space-between;
+}
+body{
+    padding: 3% 7%;
+}
+header{
+    border-style: solid;
+    align-items: center;    
+}
+.topleft{
+    color:rgb(18, 146, 197);
+    font-weight: 700;
+    font-style: italic;
+}
+li{
+    margin-right: 8px;
+}
+a{
+    text-decoration: none;
+    color:rgba(0, 0, 0,0.6);
+    font-size:0.9em;
+}
+ul{
+    list-style-type: none;
+    align-items: center;
+}
+button{
+    background:rgb(0, 183, 255);
+    border:none;
+    color:white;
+    padding:11px;
+    border-radius: 3.5px;
+    font-weight: 600;
+}
+button img{
+    max-width:70%;
+    margin-right: 4px;
+}
