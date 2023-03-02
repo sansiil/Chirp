@@ -4,6 +4,9 @@
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
 }
+#ham{
+    display: none;
+}
 .df{
     display: flex;
 }
@@ -14,7 +17,12 @@
   justify-content: space-between;
 }
 body{
-    padding: 3% 7%;
+
+    height:100vh;
+}
+.opink{
+    padding:2.4% 7%;
+    background: rgb(252, 248, 249);
 }
 header{
     border-style: solid;
@@ -71,6 +79,7 @@ img{
     font-size: 2.5em;
     max-width:75%;
     border-style: solid;
+    font-weight: 700;
 }
 p,.join{
     color:rgba(0, 0, 0,0.6);
@@ -99,20 +108,138 @@ span{
 .allfig{
     margin:3% 0 2% 0;
 }
+.white{
+    padding:4% 7%;
+    border-style: solid;
+}
 .white h2{
     border-style: solid;
     max-width:25%;
+    font-weight: 700;
+    margin-bottom: 2.5%;
 }
 .features{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap:0.5fr;
+    grid-gap: 30px;
 }
 .features div{
-    border-style: solid;
+    border:1.9px rgb(128, 128, 128,0.3) solid;
+    border-radius: 3px;
     padding:7px ;
-    max-width: 80%;
+    max-width: 75%;
+}
+.reviews{
+    
 }
 .rev{
+    border-radius: 7px;
+    width:30%;
+    padding:13px;
+    height: fit-content;
+    margin-right:0.33%;
+    background: white;
+}
+.rev p{
+    max-width:94%;
+}
+.revtop{
+    align-items: center;
+}
+.revtopleft{
+    align-items: center;
+}
+.revtop img{
+    margin-right: 7px;
+}
+.revtop figure img{
+    max-width: 20px;
+}
+.revmid{
+    margin:10px 0;
+}
+.revmid p{
+    line-height: 1.4em;
+}
+.revdown img{
+    max-width: 20px;
+    margin-right: 4px;
+}
+
+.features img{
+    max-width:8%;
+}
+.blue{
+    background: rgb(196, 238, 255);
+    padding:2% 7%;
+}
+.blue h2{
+    font-weight: 700;
+    margin-bottom: 2.5%;
+}
+.downwhite{
     border-style: solid;
+    align-items: center;
+    padding:3.5% 7%;
+}
+h1{
+    font-size: 2em;
+}
+.start{
+    border-style: solid;
+    max-width: 40%;
+    text-align: center;
+    margin:10px 0 3.5% 0;
+}
+.pricingbox{
+    border-style: solid;
+    padding:20px 17px;
+    border-radius: 7px;
+    border:1.4px rgb(230, 150, 1) solid;
+    background: rgb(252, 248, 249);
+}
+h4{
+    color:rgba(0, 0, 0,0.6);
+    font-weight: 400;
+}
+.pricingbox span{
+    color:rgba(0, 0, 0,0.6);
+    font-size: 15px;
+    font-weight: 400;
+}
+.pricingbox img{
+    max-width:17px;
+}
+.pricingsfeatures{
+    margin:10px 0 7px 0;
+    gap:14px;
+    padding:15px 0;
+    border-top: 1.4px rgba(0, 0, 0,0.2) solid;
+    border-bottom: 1.4px rgba(0, 0, 0,0.2) solid;
+}
+
+.feats img{
+    margin-right: 7px;
+}
+.pricingsfeatures p{
+    max-width:90%;
+}
+.downwhite button{
+    width:100%;
+    justify-content: center;
+}
+footer{
+    border-style: solid;
+    padding:1.5% 7%;
+    background: rgb(196, 238, 255);
+}
+footer img{
+    max-width: 20px;
+}
+footer a{
+    color:black;
+    font-weight: 400;
+}
+.fright{
+    gap:7px;
 }
