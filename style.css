@@ -62,6 +62,9 @@ button img{
 img{
     max-width:80%;
 }
+.pink{
+    padding-top: 2%;
+}
 .pinkright{
     border-style: solid;
     justify-content: end;
