@@ -246,3 +246,88 @@ footer a{
 .fright{
     gap:7px;
 }
+@media (max-width:900px){
+   #ham{
+    display:block;
+   }
+   #navbar{
+    display: none;
+   }
+   header img{
+    text-align: center;
+    margin-top: 4px;
+   }
+   .pink{
+    flex-direction: column-reverse;
+   }
+   .pinkleft,.pinkright,.pink p,.features div,.white h2,.start,.pink figcaption,h2,.white{
+    max-width:100%;
+    border:2px red solid;
+   }
+   .pinkright img{
+    max-width:100%;
+    border-style: solid;
+   }
+   .pinkleft h1{
+    max-width: 100%;
+    border:1px red solid;
+    font-size: 1.9em;
+   }
+   .buttonn{
+    flex-direction: column;
+   }
+   .buttonn button{
+    width: 100%;
+    justify-content: center;
+    border: 1px red solid;
+   }
+   h2{
+    width:300px;
+   }
+   .features{
+    display: flex;
+    flex-direction: column;
+   }
+   .reviews{
+    flex-direction: column;
+    border-style: solid;
+    gap:15px;
+   }
+   .rev{
+    width: 100%;
+   }
+   .downwhite h1{
+    text-align: center;
+   }
+   footer{
+    flex-direction: column;
+    gap:11px;
+   }
+   @media (min-width:500px) and (max-width:1100px){
+     #ham{
+        display:none;
+     }
+     #navbar{
+        display:block;
+     }
+     .pinkright img{
+        height: 700px;
+        width:100%;
+     }
+     .buttonn{
+        flex-direction: row;
+     }
+     .buttonn button{
+        max-width: fit-content;
+     }
+     .join{
+        width:60%;
+     }
+     .features p{
+        width:90%;
+     }
+     .reviews,footer{
+        flex-direction: row;
+     }
+   }
+}
