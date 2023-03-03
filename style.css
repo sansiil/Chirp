@@ -25,7 +25,6 @@ body{
     background: rgb(252, 248, 249);
 }
 header{
-    border-style: solid;
     align-items: center;    
 }
 .topleft{
@@ -66,7 +65,6 @@ img{
     padding-top: 2%;
 }
 .pinkright{
-    border-style: solid;
     justify-content: end;
     max-width: 50%;
 }
@@ -74,14 +72,12 @@ img{
     max-width: 60%;
 }
 .pinkleft{
-    border-style: solid;
     max-width:49%;
     padding-top: 5%;
 }
 .pinkleft h1{
     font-size: 2.5em;
     max-width:75%;
-    border-style: solid;
     font-weight: 700;
 }
 p,.join{
@@ -113,10 +109,8 @@ span{
 }
 .white{
     padding:4% 7%;
-    border-style: solid;
 }
 .white h2{
-    border-style: solid;
     max-width:25%;
     font-weight: 700;
     margin-bottom: 2.5%;
@@ -181,7 +175,6 @@ span{
     margin-bottom: 2.5%;
 }
 .downwhite{
-    border-style: solid;
     align-items: center;
     padding:3.5% 7%;
 }
@@ -189,13 +182,11 @@ h1{
     font-size: 2em;
 }
 .start{
-    border-style: solid;
     max-width: 40%;
     text-align: center;
     margin:10px 0 3.5% 0;
 }
 .pricingbox{
-    border-style: solid;
     padding:20px 17px;
     border-radius: 7px;
     border:1.4px rgb(230, 150, 1) solid;
@@ -232,7 +223,6 @@ h4{
     justify-content: center;
 }
 footer{
-    border-style: solid;
     padding:1.5% 7%;
     background: rgb(196, 238, 255);
 }
@@ -246,7 +236,7 @@ footer a{
 .fright{
     gap:7px;
 }
-@media (max-width:900px){
+@media (max-width:1000px){
    #ham{
     display:block;
    }
@@ -262,15 +252,12 @@ footer a{
    }
    .pinkleft,.pinkright,.pink p,.features div,.white h2,.start,.pink figcaption,h2,.white{
     max-width:100%;
-    border:2px red solid;
    }
    .pinkright img{
     max-width:100%;
-    border-style: solid;
    }
    .pinkleft h1{
     max-width: 100%;
-    border:1px red solid;
     font-size: 1.9em;
    }
    .buttonn{
@@ -279,7 +266,6 @@ footer a{
    .buttonn button{
     width: 100%;
     justify-content: center;
-    border: 1px red solid;
    }
    h2{
     width:300px;
@@ -290,7 +276,6 @@ footer a{
    }
    .reviews{
     flex-direction: column;
-    border-style: solid;
     gap:15px;
    }
    .rev{
@@ -314,9 +299,6 @@ footer a{
         height: 700px;
         width:100%;
      }
-     .buttonn{
-        flex-direction: row;
-     }
      .buttonn button{
         max-width: fit-content;
      }
@@ -326,7 +308,7 @@ footer a{
      .features p{
         width:90%;
      }
-     .reviews,footer{
+     .reviews,footer,.buttonn{
         flex-direction: row;
      }
    }
